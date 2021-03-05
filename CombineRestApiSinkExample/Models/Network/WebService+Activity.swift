@@ -8,6 +8,16 @@
 import Foundation
 import Combine
 
+struct ActivityModel : Decodable {
+    let accessibility: Double
+    let activity: String
+    let key: String
+    let link: String
+    let participants: Int
+    let price : Double
+    let type : String
+}
+
 extension WebService {
     func fetchActivity() -> AnyPublisher<ActivityModel, Error> {
     

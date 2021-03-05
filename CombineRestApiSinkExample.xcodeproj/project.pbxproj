@@ -15,7 +15,6 @@
 		F437C35825F23C520034F467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F437C35625F23C520034F467 /* LaunchScreen.storyboard */; };
 		F437C36725F23C850034F467 /* WebService+Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437C36225F23C850034F467 /* WebService+Activity.swift */; };
 		F437C36825F23C850034F467 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437C36325F23C850034F467 /* WebService.swift */; };
-		F437C36925F23C850034F467 /* ActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437C36625F23C850034F467 /* ActivityModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 		F437C35925F23C520034F467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F437C36225F23C850034F467 /* WebService+Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WebService+Activity.swift"; sourceTree = "<group>"; };
 		F437C36325F23C850034F467 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
-		F437C36625F23C850034F467 /* ActivityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				F437C36125F23C850034F467 /* Network */,
-				F437C36425F23C850034F467 /* JSON */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -90,22 +87,6 @@
 				F437C36325F23C850034F467 /* WebService.swift */,
 			);
 			path = Network;
-			sourceTree = "<group>";
-		};
-		F437C36425F23C850034F467 /* JSON */ = {
-			isa = PBXGroup;
-			children = (
-				F437C36525F23C850034F467 /* Activity */,
-			);
-			path = JSON;
-			sourceTree = "<group>";
-		};
-		F437C36525F23C850034F467 /* Activity */ = {
-			isa = PBXGroup;
-			children = (
-				F437C36625F23C850034F467 /* ActivityModel.swift */,
-			);
-			path = Activity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,7 +161,6 @@
 			files = (
 				F437C35025F23C520034F467 /* ViewController.swift in Sources */,
 				F437C34C25F23C520034F467 /* AppDelegate.swift in Sources */,
-				F437C36925F23C850034F467 /* ActivityModel.swift in Sources */,
 				F437C34E25F23C520034F467 /* SceneDelegate.swift in Sources */,
 				F437C36825F23C850034F467 /* WebService.swift in Sources */,
 				F437C36725F23C850034F467 /* WebService+Activity.swift in Sources */,
