@@ -2,7 +2,7 @@
 **Example of REST API calls with Combine Framework and handling data with sink() method**
 
 In my example I used a great free JSON API called **Bored** :).
-You can can get a suggestion with random activity by calling the following endpoint:
+You can get a suggestion with random activity by calling the following endpoint:
 
 `
 https://www.boredapi.com/api/activity
